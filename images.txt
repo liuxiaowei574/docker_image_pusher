@@ -21,3 +21,5 @@ peersafes/fabric-orderer@sha256:b124511d875919429e212e02c1218f169d8e3d15c96f74b1
 --platform linux/arm64 peersafes/onebaas-web:arm64-v2.0.1
 --platform linux/arm64 peersafes/onebaas-server:arm64-v2.0.1
 --platform linux/arm64/v8 peersafes/ubuntu-server-base:golang-1.14-gaoyuan
+--platform linux/arm64 peersafes/dnsmasq:latest
+--platform linux/arm64 peersafes/golang-alpine-gcc-14:latest
