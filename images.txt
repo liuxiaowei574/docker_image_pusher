@@ -1,25 +1,22 @@
-nginx
+#nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
---platform=linux/arm64 rancher/k8s-dns-dnsmasq-nanny:1.15.10
---platform=linux/arm64 peersafes/fabric-orderer:2.2.1-GM
---platform=linux/arm64 peersafes/fabric-peer:2.2.1-GM
---platform=linux/arm64 peersafes/fabric-ccenv:2.2.1-GM
---platform=linux/arm64 peersafes/fabric-ca:arm64-2.2.1-gm
---platform=linux/arm64 peersafes/fabric-baseos:2.2.1-GM
-peersafes/fabric-orderer@sha256:b124511d875919429e212e02c1218f169d8e3d15c96f74b1363ba34dd8b16746
-#--platform linux/arm64 peersafes/fabric-couchdb:2.2.1
-#--platform linux/arm64 peersafes/mysql:5.7
-#--platform linux/arm64 peersafes/onebaas-server:latest
---platform linux/arm64 peersafes/nginx:latest-gaoyuan
---platform linux/arm64 peersafes/fabric-couchdb:2.2.1-GM
---platform linux/arm64/v8 peersafes/fabric-couchdb:2.2.1-GM
---platform linux/arm64 peersafes/mysql:arm64v8-5.7
---platform linux/arm64 peersafes/onebaas-web:arm64-v2.0.1
---platform linux/arm64 peersafes/onebaas-server:arm64-v2.0.1
---platform linux/arm64/v8 peersafes/ubuntu-server-base:golang-1.14-gaoyuan
---platform linux/arm64 peersafes/dnsmasq:latest
---platform linux/arm64 peersafes/golang-alpine-gcc-14:latest
+#--platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 rancher/k8s-dns-dnsmasq-nanny:1.15.10
+#--platform=linux/arm64 peersafes/fabric-orderer:2.2.1-GM
+#--platform=linux/arm64 peersafes/fabric-peer:2.2.1-GM
+#--platform=linux/arm64 peersafes/fabric-ccenv:2.2.1-GM
+#--platform=linux/arm64 peersafes/fabric-ca:arm64-2.2.1-gm
+#--platform=linux/arm64 peersafes/fabric-baseos:2.2.1-GM
+#peersafes/fabric-orderer@sha256:b124511d875919429e212e02c1218f169d8e3d15c96f74b1363ba34dd8b16746
+#--platform linux/arm64 peersafes/nginx:latest-gaoyuan
+#--platform linux/arm64 peersafes/fabric-couchdb:2.2.1-GM
+#--platform linux/arm64/v8 peersafes/fabric-couchdb:2.2.1-GM
+#--platform linux/arm64 peersafes/mysql:arm64v8-5.7
+#--platform linux/arm64 peersafes/onebaas-web:arm64-v2.0.1
+#--platform linux/arm64 peersafes/onebaas-server:arm64-v2.0.1
+--platform linux/arm64/v8 peersafes/ubuntu-server-base:golang-1.14
+#--platform linux/arm64 peersafes/dnsmasq:latest
+#--platform linux/arm64 peersafes/golang-alpine-gcc-14:latest
