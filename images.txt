@@ -17,7 +17,8 @@
 #--platform linux/arm64 peersafes/mysql:arm64v8-5.7
 #--platform linux/arm64 peersafes/onebaas-web:arm64-v2.0.1
 #--platform linux/arm64 peersafes/onebaas-server:arm64-v2.0.1
-peersafes/ubuntu-server-base:golang-1.14
---platform linux/arm64/v8 peersafes/ubuntu-server-base:golang-1.14
+#peersafes/ubuntu-server-base:golang-1.14
+#--platform linux/arm64/v8 peersafes/ubuntu-server-base:golang-1.14
 #--platform linux/arm64 peersafes/dnsmasq:latest
 #--platform linux/arm64 peersafes/golang-alpine-gcc-14:latest
+apache/superset-cache:3.10-slim-bookworm
