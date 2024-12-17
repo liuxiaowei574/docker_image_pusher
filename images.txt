@@ -24,3 +24,4 @@
 #apache/superset-cache:3.10-slim-bookworm
 #docker.io/apache/superset-cache:3.10-slim-bookworm
 amancevice/superset
+apache/superset
