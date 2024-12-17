@@ -22,4 +22,5 @@
 #--platform linux/arm64 peersafes/dnsmasq:latest
 #--platform linux/arm64 peersafes/golang-alpine-gcc-14:latest
 #apache/superset-cache:3.10-slim-bookworm
-docker.io/apache/superset-cache:3.10-slim-bookworm
+#docker.io/apache/superset-cache:3.10-slim-bookworm
+amancevice/superset
